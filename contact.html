@@ -12,9 +12,6 @@
       rel="stylesheet"
     />
 
-    <!-- link css -->
-    <link rel="stylesheet" href="style.css" />
-
     <!-- link bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -22,6 +19,12 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+
+    <style>
+      body {
+        --bs-body-font-family: 'Prompt', sans-serif;
+      }
+    </style>
 
     <title>Phumiphat's Portfolio</title>
   </head>
@@ -52,6 +55,7 @@
       </div>
     </nav>
 
+    <div class="fs-2 my-3" style="text-align: center">Contact Me</div>
     <div class="d-flex gap-4 mx-auto p-3" style="max-width: 700px">
       <div class="d-block">
         <img
@@ -63,17 +67,41 @@
         />
       </div>
 
-      <div class="d-block">
-        <div class="display-6 fw-bold my-3">Phumiphat Thanoi</div>
-        <div class="fw-lighter">
-          สวัสดีครับ ผมชื่อดัง,
-          ปัจจุบันกำลังศึกษาวิศวกรรมคอมพิวเตอร์อยู่ที่มหาวิทยาลัยเชียงใหม่
-          ยินดีที่ได้รู้จักครับ
+      <div class="vstack gap-2 align-self-center border rounded  p-4" style="max-width: 400px">
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-bold">Name</div>
+          <span class="text-muted">ภูมิภัทร ถาน้อย</span>
+        </div>
+
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-bold">Nickname</div>
+          <span class="text-muted">ดัง</span>
+        </div>
+
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-bold">Study</div>
+          <span class="text-muted">วิศกรรมคอมพิวเตอร์ มหาวิทยาลัยเชียงใหม่</span>
+        </div>
+
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-bold">📧Email:</div>
+          <span class="text-muted">
+            <a href="mailto: " target="_blank">
+              phumiphat_th@cmu.ac.th
+            </a>
+          </span>
+        </div>
+
+        <div class="d-flex">
+          <div style="min-width: 100px" class="fw-bold">📱  Phone</div>
+          <span class="text-muted">
+            0807695456
+          </span>
         </div>
       </div>
     </div>
 
-<p class="text-center text-muted m-4">
+    <p class="text-center text-muted m-4">
       © 2026 by Phumiphat Thanoi
     </p>
 
